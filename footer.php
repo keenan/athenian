@@ -33,7 +33,7 @@
 		} ?>
 
 		<div class="footer-text">
-			<?php if(themify_get('setting-footer_text_left') != ""){ echo themify_get('setting-footer_text_left'); } else { echo '&copy; <a href="'.get_option('home').'">'.get_bloginfo('name').'</a> '.date('Y').' &bull; <a href="http://themify.me">Themify WordPress Themes</a>'; } ?>
+			<?php if(themify_get('setting-footer_text_left') != ""){ echo themify_get('setting-footer_text_left'); } else { echo '&copy; <a href="'.get_option('home').'">'.get_bloginfo('name').'</a> '.date('Y').''; } ?>
 		</div>
 		<!--/footer-text --> 
 	</div>
