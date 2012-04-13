@@ -7,3 +7,22 @@ Version:        0.1.0
 */
 
 @import url("../edmin/style.css");
+
+
+#header {
+  background: url(images/header-bg.png) no-repeat;
+  background-position:0px 15px;
+}
+
+#header #searchform #s {
+  width: 237px;
+}
+
+p {
+  margin: 1.2em 0 1.2em;
+  padding: 0;
+}
+
+.post-comment {
+  visibility:hidden;
+}
