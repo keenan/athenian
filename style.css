@@ -33,5 +33,10 @@ p {
 }
 
 .post-title{
-  margin-top: 15px;
+/*  margin-top: 15px;*/
+}
+
+.post-date{
+  left: auto;
+  right: 0;
 }
