@@ -26,3 +26,9 @@ p {
 .post-comment {
   visibility:hidden;
 }
+
+.post-author {
+  visibility:hidden;
+  position: absolute;
+}
+
