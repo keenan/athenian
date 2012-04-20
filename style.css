@@ -8,35 +8,57 @@ Version:        0.1.0
 
 @import url("../edmin/style.css");
 
-
+/* Place the painted pillar */
 #header {
   background: url(images/header-bg.png) no-repeat;
   background-position:0px 15px;
 }
 
+/* Make the header search form the same width as the right margin*/
 #header #searchform #s {
   width: 237px;
 }
 
+/* Increate the paragraph spacing*/
 p {
   margin: 1.2em 0 1.2em;
   padding: 0;
 }
 
+/* Hide the post comment count in blog roll */
 .post-comment {
   visibility:hidden;
 }
 
+/* Hide the post author on blog roll and post pages*/
 .post-author {
   visibility:hidden;
   position: absolute;
 }
 
-.post-title{
-/*  margin-top: 15px;*/
-}
-
+/* Move post date to the right*/
 .post-date{
   left: auto;
   right: 0;
+}
+
+/* Customization of Pinterest Widget*/
+.pins-feed-list li{
+  float: left;
+  clear: none;
+  margin: 10px 5px 0 5px;
+  
+  padding: 4px;
+  background: white;
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.nailthumb-container{
+  margin-bottom:0px;
 }
